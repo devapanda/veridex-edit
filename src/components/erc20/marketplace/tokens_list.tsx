@@ -129,7 +129,7 @@ class TokensList extends React.PureComponent {
                         <THStyled>Token</THStyled>
                         <THStyled>{}</THStyled>
                         <THStyled styles={{ textAlign: 'left' }}>Website</THStyled>
-                        <THLast styles={{ textAlign: 'left' }}>VeriSafe Approval</THLast>
+                        <THLast styles={{ textAlign: 'left' }}>Swapdex Approval</THLast>
                     </TR>
                 </THead>
                 <TBody>{tokensRows}</TBody>

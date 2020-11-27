@@ -9,16 +9,16 @@
         }
     },
     "tokens": {
-        "vsf": {
-            "ticker": "VSF",
-            "name": "VeriSafe",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+        "sdx": {
+            "ticker": "SDX",
+            "name": "Swapdex",
+            "mainnet-contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+            "contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "info": "https://t.me/VeriSafe",
             "minimumWithdrawalCharge": 20000,
             "maximumWithdrawalCharge": 50000,
-            "decimals": 18,
+            "decimals": 7,
             "games": {
                 "dice": {
                     "houseFee": 3,
@@ -49,9 +49,9 @@
         "vsffree": {
             "ticker": "VSFFree",
             "name": "VeriSafe (Free giveaway)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+            "mainnet-contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+            "contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "info": "https://t.me/VeriSafe",
             "ethOnly": true,
             "events": false,
@@ -64,9 +64,9 @@
         "vsfblackfriday": {
             "ticker": "VSFBlackFriday",
             "name": "VeriSafe (Black Friday)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+            "mainnet-contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+            "contract": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0",
             "info": "https://t.me/VeriSafe",
             "ethOnly": true,
             "events": false,

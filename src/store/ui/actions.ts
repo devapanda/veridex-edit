@@ -916,14 +916,14 @@ export const createConfigSignature: ThunkCreator = (message: string) => {
                 },
                 primaryType: 'Message',
                 domain: {
-                    name: 'Veridex',
+                    name: 'Swapdex',
                     version: '1',
                     chainId: CHAIN_ID,
                     verifyingContract: '0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC',
                 },
                 message: {
-                    message: 'I want to create/edit this DEX. Veridex terms apply',
-                    terms: 'verisafe.io/terms-and-conditions',
+                    message: 'I want to create/edit this DEX. Swapdex terms apply',
+                    terms: 'swapdex.net/terms-and-conditions',
                 },
             };
             const web3Metamask = new Web3Wrapper(provider);

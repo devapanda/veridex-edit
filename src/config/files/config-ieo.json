@@ -1,26 +1,26 @@
 {
     "tokens": [
         {
-            "decimals": 18,
-            "symbol": "vsf",
-            "name": "VeriSafe",
+            "decimals": 7,
+            "symbol": "SDX",
+            "name": "SwapDEX",
             "primaryColor": "#081e6e",
-            "icon": "assets/icons/vsf.svg",
+            "icon": "assets/icons/sdx.svg",
             "addresses": {
                 "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
                 "3": "0xba3a79d758f19efe588247388754b8e4d6edda81"
             },
-            "id": "verisafe",
-            "c_id": "verisafe",
+            "id": "swapdex",
+            "c_id": "swapdex",
             "displayDecimals": 0,
             "description": "The transparent ecossystem that crypto needs!",
-            "website": "https://www.verisafe.io",
+            "website": "https://www.swapdex.net",
             "social": {
-                "telegram_url": "https://t.me/VeriSafe",
-                "twitter_url": "https://twitter.com/VeriSafeProject",
-                "facebook_url": "https://www.facebook.com/VeriSafe.io/",
+                "telegram_url": "https://t.me/swapdex",
+                "twitter_url": "https://twitter.com/swapdexProject",
+                "facebook_url": "https://www.facebook.com/swapdex.io/",
                 "discord_url": "https://discord.gg/cGMJemv",
-                "reddit_url": "https://reddit.com/r/verisafe",
+                "reddit_url": "https://reddit.com/r/swapdex",
                 "bitcointalk_url": "https://bitcointalk.org/index.php?topic=5140352",
                 "statedapps_url": "https://www.stateofthedapps.com/dapps/veridex"
             },

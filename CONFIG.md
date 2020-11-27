@@ -171,7 +171,7 @@ There are a few general configuration options for Launch Kit.
 {
     "general": {
         "title": "VeriDex",
-        "icon": "assets/icons/vsf.svg"
+        "icon": "assets/icons/sdx.svg"
     }
 }
 ```
@@ -190,18 +190,17 @@ Inside the config is a tokens section. This is an array of all of the tokens use
     "tokens:": [
         {
             "decimals": 18,
-            "symbol": "vsf",
+            "symbol": "sdx",
             "name": "VeriSafe",
             "primaryColor": "#081e6e",
-            "icon": "assets/icons/vsf.svg",
+            "icon": "assets/icons/sdx.svg",
             "addresses": {
-                "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81"
+                "1": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0"
             },
-            "id": "verisafe",
+            "id": "swapdex",
             "displayDecimals": 0,
             "description": "The transparent ecossystem that crypto needs!",
-            "website": "https://www.verisafe.io"
+            "website": "https://www.swapdex.net"
         }
     ]
 }
@@ -221,7 +220,7 @@ Inside the config is a tokens section. This is an array of all of the tokens use
 |                  |
 | description      | Small project description                                                                                                                                                              |
 |                  |
-| verisafe_sticker | VeriSafe Sticker                                                                                                                                                                       |
+| SwapDEX_sticker | SwapDEX Sticker                                                                                                                                                                       |
 
 ### Pairs
 

@@ -4,21 +4,19 @@
     },
     "tokens": [
         {
-            "decimals": 18,
-            "symbol": "vsf",
-            "name": "VeriSafe",
+            "decimals": 7,
+            "symbol": "sdx",
+            "name": "SwapDEX",
             "primaryColor": "#081e6e",
-            "icon": "assets/icons/vsf.svg",
+            "icon": "assets/icons/sdx.svg",
             "addresses": {
-                "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
+                "1": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0"
             },
-            "id": "verisafe",
-            "c_id": "verisafe",
+            "id": "swapdex",
+            "c_id": "swapdex",
             "displayDecimals": 0,
             "description": "The transparent ecossystem that crypto needs!",
-            "website": "https://www.verisafe.io"
+            "website": "https://www.swapdex.net"
         },
         {
             "symbol": "weth",
@@ -110,7 +108,7 @@
     ],
     "pairs": [
         {
-            "base": "vsf",
+            "base": "sdx",
             "quote": "weth",
             "config": {
                 "basePrecision": 0,
@@ -129,7 +127,7 @@
         },
         {
             "base": "zrx",
-            "quote": "vsf",
+            "quote": "sdx",
             "config": {
                 "basePrecision": 0,
                 "pricePrecision": 7,
@@ -168,8 +166,8 @@
             "value": "weth"
         },
         {
-            "text": "VSF",
-            "value": "vsf"
+            "text": "SDX",
+            "value": "sdx"
         }
     ]
 }

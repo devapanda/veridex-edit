@@ -7,21 +7,21 @@ export const generateMetamaskWalletDeepLink = (url: string) => {
 };
 
 export const generateInstantLink = (address: string) => {
-    return `https://dex.verisafe.io/#/instant?token=${address}`;
+    return `https://dex.swapdex.net/#/instant?token=${address}`;
 };
 
 export const generateIEOInstantLink = (address: string, makerAddress: string) => {
-    return `https://dex.verisafe.io/#/instant?token=${address}&makerAddress=${makerAddress}&isEIO=true`;
+    return `https://dex.swapdex.net/#/instant?token=${address}&makerAddress=${makerAddress}&isEIO=true`;
 };
 
 export const generateIEODashboardLink = (address: string, makerAddress: string) => {
-    return `https://dex.verisafe.io/#/launchpad/orders?token=${address}&makerAddress=${makerAddress}&isEIO=true`;
+    return `https://dex.swapdex.net/#/launchpad/orders?token=${address}&makerAddress=${makerAddress}&isEIO=true`;
 };
 
 export const generateERC20TradeLink = (address: string) => {
-    return `https://dex.verisafe.io/#/erc20?base=${address}&quote=weth`;
+    return `https://dex.swapdex.net/#/erc20?base=${address}&quote=weth`;
 };
 
 export const generateERC20MarketTradeLink = (address: string) => {
-    return `https://dex.verisafe.io/#/market-trade?token=${address}`;
+    return `https://dex.swapdex.net/#/market-trade?token=${address}`;
 };

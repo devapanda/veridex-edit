@@ -36,7 +36,7 @@ const JoinAsMaker = () => {
         </LabelWrapper>
     );
 
-    return <Card title="Join as Market Maker: Veridex Pool">{content}</Card>;
+    return <Card title="Join as Market Maker: Swapdex Pool">{content}</Card>;
 };
 
 const JoinAsMakerWithTheme = withTheme(JoinAsMaker);

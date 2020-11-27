@@ -193,7 +193,7 @@ export const Footer: React.FC<Props> = props => {
                 )}
                 {marketplace !== MARKETPLACES.ERC721 && <Pipe>|</Pipe>}
                 <HrefStyled
-                    href="https://www.verisafe.io/terms-and-conditions"
+                    href="https://www.swapdex.net/terms-and-conditions"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
@@ -202,7 +202,7 @@ export const Footer: React.FC<Props> = props => {
                 </HrefStyled>
                 <Pipe>|</Pipe>
                 <br className="break" />
-                <HrefStyled href="https://www.verisafe.io/privacy-policy" target="_blank" rel="noopener noreferrer">
+                <HrefStyled href="https://www.swapdex.net/privacy-policy" target="_blank" rel="noopener noreferrer">
                     Privacy Policy
                 </HrefStyled>
                 {marketplace !== MARKETPLACES.ERC721 && <Pipe>|</Pipe>}
@@ -235,9 +235,9 @@ export const Footer: React.FC<Props> = props => {
     </StyledButton> */}
             </LinksContainer>
             <LinksContainer>
-                <HrefStyled href="https://0x.org/" target="_blank" rel="noopener noreferrer">
+                {/*<HrefStyled href="https://0x.org/" target="_blank" rel="noopener noreferrer">
                     {poweredBySVG()}
-                </HrefStyled>
+                </HrefStyled>*/}
                 {/* <HrefStyled href={`/dex-wizard`} onClick={handleDexWizardClick}>
                     Dex Wizard
                  </HrefStyled>

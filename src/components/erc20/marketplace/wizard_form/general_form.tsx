@@ -107,7 +107,7 @@ export const GeneralWizardForm = ({
                 <LabelContainer>
                     <Label>Dex Domain</Label> {` `}
                     <TooltipStyled
-                        description="Domain where your DEX will be showed. Ex: https://dex.verisafe.io/"
+                        description="Domain where your DEX will be showed. Ex: https://dex.swapdex.net/"
                         iconType={IconType.Fill}
                     />
                 </LabelContainer>

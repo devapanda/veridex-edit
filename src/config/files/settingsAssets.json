@@ -10,12 +10,12 @@
     },
     "tokens": {
         "vsf": {
-            "ticker": "VSF",
-            "name": "VeriSafe",
+            "ticker": "SDX",
+            "name": "SwapDEX",
             "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
             "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
             "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "info": "https://t.me/VeriSafe",
+            "info": "https://t.me/swapdex",
             "minimumWithdrawalCharge": 20000,
             "maximumWithdrawalCharge": 50000,
             "decimals": 18,

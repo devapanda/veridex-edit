@@ -9,13 +9,13 @@ import { CurrencyPair, CurrencyPairMetaData } from '../../util/types';
 
 const currencyPairsMetaDataDemo: CurrencyPairMetaData[] = [
     {
-        base: 'vsf',
+        base: 'sdx',
         quote: 'zrx',
     },
 ];
 const currencyPairsMetaDataDemoWithConfig: CurrencyPairMetaData[] = [
     {
-        base: 'vsf',
+        base: 'sdx',
         quote: 'zrx',
         config: {
             basePrecision: 10,
@@ -29,7 +29,7 @@ const currencyPairsMetaDataDemoWithConfig: CurrencyPairMetaData[] = [
 
 const currencyPairDemo: CurrencyPair[] = [
     {
-        base: 'vsf',
+        base: 'sdx',
         quote: 'zrx',
         config: {
             basePrecision: UI_DECIMALS_DISPLAYED_ORDER_SIZE,

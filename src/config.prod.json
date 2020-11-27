@@ -1,17 +1,17 @@
 {
     "general": {
         "title": "SwapDex",
-        "icon": "assets/icons/vsf.svg"
+        "icon": "assets/icons/sdx.svg"
     },
     "tokens": [
         {
-            "decimals": 18,
-            "symbol": "vsf",
-            "name": "VeriSafe",
+            "decimals": 7,
+            "symbol": "sdx",
+            "name": "Swapdex",
             "primaryColor": "#081e6e",
-            "icon": "assets/icons/vsf.svg",
+            "icon": "assets/icons/sdx.svg",
             "addresses": {
-                "1": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c"
+                "1": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0"
             },
             "id": "Swapdex",
             "displayDecimals": 0
@@ -180,7 +180,7 @@
             "quote": "weth"
         },
         {
-            "base": "vsf",
+            "base": "sdx",
             "quote": "weth"
         },
         {
@@ -193,7 +193,7 @@
         },
         {
             "base": "sntvt",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "sntvt",
@@ -201,11 +201,11 @@
         },
         {
             "base": "nuke",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "ethplo",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "ethplo",
@@ -213,7 +213,7 @@
         },
         {
             "base": "ftm",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "ftm",
@@ -225,19 +225,19 @@
         },
         {
             "base": "mkr",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "rep",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "mln",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "zrx",
-            "quote": "vsf"
+            "quote": "sdx"
         },
         {
             "base": "zrx",
@@ -246,8 +246,8 @@
     ],
     "marketFilters": [
         {
-            "text": "VSF",
-            "value": "vsf"
+            "text": "SDX",
+            "value": "sdx"
         },
         {
             "text": "ETH",

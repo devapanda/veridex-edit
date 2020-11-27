@@ -47,7 +47,7 @@ function getLanguageFromURL(): LanguageCode | null {
 // tslint:disable-next-line: no-default-export
 export default class TVChartContainer extends React.PureComponent<Partial<ChartContainerProps>, ChartContainerState> {
     public static defaultProps: ChartContainerProps = {
-        symbol: 'VSF-WETH',
+        symbol: 'SDX-WETH',
         interval: 'D',
         containerId: 'tv_chart_container',
         datafeedUrl: `${RELAYER_URL}/candles`,
@@ -61,7 +61,7 @@ export default class TVChartContainer extends React.PureComponent<Partial<ChartC
         studiesOverrides: {},
     };
     public readonly state = {
-        symbol: this.props.symbol ? this.props.symbol : 'VSF-WETH',
+        symbol: this.props.symbol ? this.props.symbol : 'SDX-WETH',
     };
     private _tvWidget: IChartingLibraryWidget | null = null;
 
@@ -114,7 +114,7 @@ export default class TVChartContainer extends React.PureComponent<Partial<ChartC
     public componentDidUpdate(): void {
         if (this._tvWidget !== null) {
             if (this.props.symbol !== this.state.symbol) {
-                const symbol = this.props.symbol ? this.props.symbol : 'VSF-WETH';
+                const symbol = this.props.symbol ? this.props.symbol : 'SDX-WETH';
                 if (symbol) {
                     this.setState({ symbol });
                     // tslint:disable-next-line: no-empty
