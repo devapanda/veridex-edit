@@ -98,11 +98,11 @@ export default class TVChartContainer extends React.PureComponent<Partial<ChartC
             loading_screen: { backgroundColor: '#02112c' },
         };
 
-        const tvWidget = new widget(widgetOptions);
-        this._tvWidget = tvWidget;
+        // const tvWidget = new widget(widgetOptions);
+        // this._tvWidget = tvWidget;
 
-        // tslint:disable-next-line: no-empty
-        tvWidget.onChartReady(() => {});
+        // // tslint:disable-next-line: no-empty
+        // tvWidget.onChartReady(() => {});
     }
 
     public componentWillUnmount(): void {
